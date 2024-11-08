@@ -17,7 +17,9 @@ while (shape !=1 and shape !=2 and shape !=3 and shape !=4 and shape !=5 and sha
 	print ('6. Cone')
 	shape = int(input())
 	if (shape !=1 and shape !=2 and shape !=3 and shape !=4 and shape !=5 and shape !=6):
+		print ("")
 		print ('You have not entered a valid choice, please choose an integer between 1 and 6 inclusive.')
+		print ("")
 
 #float pi = 3.1415927
 
