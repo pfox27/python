@@ -1,4 +1,4 @@
-# A programme to compute the six trigonometric ratios of an angle given in degrees."
+# A programme to compute all six trigonometric ratios of an angle given in degrees."
 
 import math
 print ("")
