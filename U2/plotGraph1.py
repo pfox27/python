@@ -21,32 +21,13 @@
 #  
 #  
 
-# This programme asks the user to input a number and then outputs the sqaure root of that number. 
+import simpleplot
 
+dataset1 = [(1, 4), (1, 5), (2, 7), (4, 9)]
+dataset2 = [(1, 2), (2, 7), (2, 5), (7, 6)]
 
-import math
-number = float(input("Please enter a number: "))
-absoluteNumber = math.fabs(number)
-squareRoot = math.sqrt(absoluteNumber)
-print("The final outcome is: ", squareRoot)
-
-
-
-
-
-
+simpleplot.plot_lines("Sample", 400, 300, "x", "y", [dataset1, dataset2], True, ["Dataset 1", "Dataset 2"])
 	
 
 
 
-
-
-import sys
-
-
-def main(args):
-    return 0
-
-
-if __name__ == '__main__':
-    sys.exit(main(sys.argv[1:]))

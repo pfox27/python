@@ -21,16 +21,14 @@
 #  
 #  
 
-# This programme asks the user to input a number and then outputs the sqaure root of that number. 
+import random
 
+a = random.randint(1, 5)
+b = random.randint(1, 5)
 
-import math
-number = float(input("Please enter a number: "))
-absoluteNumber = math.fabs(number)
-squareRoot = math.sqrt(absoluteNumber)
-print("The final outcome is: ", squareRoot)
+answer = a + b
 
-
+print (str(a) + " + " + str(b) + " = " + str(answer)) 
 
 
 
@@ -39,14 +37,3 @@ print("The final outcome is: ", squareRoot)
 
 
 
-
-
-import sys
-
-
-def main(args):
-    return 0
-
-
-if __name__ == '__main__':
-    sys.exit(main(sys.argv[1:]))

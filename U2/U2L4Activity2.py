@@ -21,14 +21,19 @@
 #  
 #  
 
-# This programme asks the user to input a number and then outputs the sqaure root of that number. 
-
+# This programme asks the user to input a decimal number and then outputs just the decimal portion. 
 
 import math
-number = float(input("Please enter a number: "))
-absoluteNumber = math.fabs(number)
-squareRoot = math.sqrt(absoluteNumber)
-print("The final outcome is: ", squareRoot)
+number1 = float(input("Please enter an integer: "))
+number1 = math.fabs(number1)
+number1 = number1 - int(number1) 
+number2 = float(input("Please enter an integer: "))
+number2 = math.fabs(number2)
+number2 = number2 - int(number2)
+number3 = float(input("Please enter an integer: "))
+number3 = math.fabs(number3)
+number3 = number3 - int(number3)
+print("The minimum value entered is: ", min(number1, number2, number3))
 
 
 
@@ -39,14 +44,3 @@ print("The final outcome is: ", squareRoot)
 
 
 
-
-
-import sys
-
-
-def main(args):
-    return 0
-
-
-if __name__ == '__main__':
-    sys.exit(main(sys.argv[1:]))
