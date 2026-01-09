@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-#  U2L4Activity1.py
+#  U2L2A1.py
 #  
 #  Copyright 2025 Paul Fox <paulfox@Paul-Fox-MacBook-Air.local>
 #  
@@ -21,7 +21,7 @@
 #  
 #  
 
-# This programme asks the user to input a number and then outputs the sqaure root of that number. 
+# This programme generates two random integers, performs four mathematical operations on them and then outputs the results. 
 
 
 import random
@@ -30,7 +30,7 @@ a = random.randint(1,12)
 b = random.randint(1,12)
 
 multAnswer = a * b
-divAnswer = a/b
+divAnswer = a / b
 addAnswer = a + b
 subAnswer = a - b
 
